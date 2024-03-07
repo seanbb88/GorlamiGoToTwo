@@ -1,0 +1,52 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+h1,
+p {
+    margin: 20px;
+}
+
+.logo-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    font-size: 3rem;
+    color: #999;
+}
+
+.terms-container {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.content {
+    font-size: 1rem;
+    color: #555;
+}
+
+.content p {
+    margin-bottom: 10px;
+}
+
+.content ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+}
+
+.content ol li {
+    margin-bottom: 20px;
+}

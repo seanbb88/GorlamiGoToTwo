@@ -19,7 +19,7 @@ p {
     color: #999;
 }
 
-.terms-container {
+.content-container {
     width: 30%;
     margin: auto;
     text-align: center;
@@ -38,6 +38,15 @@ p {
     color: #555;
 }
 
+.content.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.email {
+    margin-left: 240px;
+}
+
 .content p {
     margin-bottom: 10px;
 }
@@ -49,4 +58,21 @@ p {
 
 .content ol li {
     margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 1430px) {
+    .content-container {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .content-container {
+        width: 70%;
+    }
+
+    .email {
+        margin-left: 64px;
+    }
 }

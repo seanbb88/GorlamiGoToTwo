@@ -43,6 +43,10 @@ p {
     flex-direction: row;
 }
 
+.second-row {
+    margin-top: 48px;
+}
+
 .email {
     margin-left: 240px;
 }

@@ -19,7 +19,8 @@ p {
     color: #999;
 }
 
-.content-container {
+.content-container,
+.project-container {
     width: 30%;
     margin: auto;
     text-align: center;

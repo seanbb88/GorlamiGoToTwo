@@ -67,13 +67,17 @@ p {
 
 
 @media only screen and (max-width: 1430px) {
-    .content-container {
+
+    .content-container,
+    .projects-container {
         width: 40%;
     }
 }
 
 @media only screen and (max-width: 830px) {
-    .content-container {
+
+    .content-container,
+    .projects-container {
         width: 70%;
     }
 
